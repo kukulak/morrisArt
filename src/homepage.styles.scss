@@ -1,0 +1,98 @@
+.txtColeccion{
+    text-align: center;
+    font-weight: 300;
+    color: #898787;
+    font-size: 155px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    margin-top: -64px;
+}
+
+
+.txtMexica{
+    font-weight: 300;
+    color: #333333;
+    font-size: 120px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: right;
+    margin-right: 100px;
+}
+
+
+.txtYear {
+    font-weight: 300;
+    color: #6E6969;
+    font-size: 73px;
+    grid-column-start: 3;
+ 
+    grid-row-start: 4;
+  
+    margin-left: 14px;
+    margin-top: -17px;
+}
+
+
+.coleccionBtn {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+   
+    text-align: right;
+    color: #999594;
+}
+
+.classColections{
+    position: relative;
+    /* height: 70%; */
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 600px 222px 600px 222px 600px 222px 600px 222px;
+    place-items: center;
+    // background-image: url(img/glowber.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+
+.colection{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 40px auto 40px 50px;
+    grid-template-rows: 130px 300px auto;
+}
+
+.colection img{
+    height: 137%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    justify-self: center;
+    z-index: 100;
+ 
+}
+
+
+.coleccionBtn img{
+    width: 17px;
+    height: auto;
+}
+
+.contenedorColeccion{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-self: center;
+    grid-template-columns: 50px 40px auto 40px 50px;
+    grid-template-rows: 25% 157px 95px auto;
+}
