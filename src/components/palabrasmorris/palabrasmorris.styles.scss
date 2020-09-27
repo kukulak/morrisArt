@@ -1,0 +1,96 @@
+.contenedorPalabrasMorris{
+    overflow: hidden;
+    margin-top: -361px;
+    display: grid;
+    justify-content: right;
+    justify-items: right;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 19%;
+    margin-bottom: -100px;
+    img{
+        // width: 100%;
+        grid-column: 2;
+
+    }
+
+}
+
+.palabrasMorris{
+    grid-column: 2;
+    grid-row: 1;
+    img{
+        width: 100%;
+
+    }
+}
+
+.letrasMorris{
+// align-self: center;
+// justify-self: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-top: 150px;
+    margin-left: 67px;
+    margin-right: -60px;
+}
+
+.letrasM{
+    
+    color: grey;
+    text-align: left;
+  
+    
+        
+}
+
+.dobleErre{
+    width: 70px;
+    text-align: left;
+    margin-left: -255px;
+}
+
+@media only screen and (max-width: 669px) {
+    .contenedorPalabrasMorris{
+        margin-top: -461px;
+    }
+
+    .contenedorPalabrasMorris{
+        display: grid;
+        justify-content: right;
+        justify-items: right;
+        grid-template-columns: 40% 60%;
+        
+      
+    
+    }
+
+    .palabrasMorris{
+        grid-column: 2;
+        img{
+            width: 100%;
+    
+        }
+    }
+
+    .letrasMorris{
+      
+            margin-top: -10px;
+            margin-left: 47px;
+            margin-right: -100px;
+        }
+        
+    
+    .letrasM{
+        font-size: 15px;
+    }
+
+    .dobleErre{
+        width: 50px;
+        justify-self: start;
+        align-self: initial;
+        margin-left: -185px;
+    
+    }
+
+
+}

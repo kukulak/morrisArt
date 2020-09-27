@@ -1,0 +1,28 @@
+.eachColeccion{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+
+.coleccion{
+    img{
+        
+        max-width: 45%;
+        min-width: 410px;
+        height: auto;
+        
+    }
+}
+
+.eachLine{
+    
+    margin-top: -152px;
+
+    img{
+        max-width: 100%;
+        min-width: 1005px;
+        height: auto;
+        float: right;
+    }
+}

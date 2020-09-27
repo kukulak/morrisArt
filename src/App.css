@@ -1,3 +1,10 @@
+p, a, h1, h2, h3, h4, h5, h6, div, section, menu{
+  font-family: 'Montserrat', sans-serif;
+  color: #999594;
+  font-weight: 300;
+}
+
+
 .App {
   text-align: center;
   background-color: black;

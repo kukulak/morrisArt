@@ -1,0 +1,33 @@
+.menu{
+    position: fixed;
+    display: grid;
+    z-index: 1001;
+    grid-template-columns: 2% 48% 48% 2%;
+    grid-template-rows: 15px auto 15px;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    // background-color: #00000063;
+}
+
+.logoMorris{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: left;
+    img{
+        width: 170px;
+    }
+}
+
+.contenedorMenu{
+    grid-column-start: 3;
+    grid-row-start: 2;
+
+}
+
+.menuBtn{
+ margin-left: 10px;
+ text-transform: uppercase;
+ color: lightgrey;
+}
+

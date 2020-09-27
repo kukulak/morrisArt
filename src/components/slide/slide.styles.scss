@@ -1,0 +1,28 @@
+.slide{
+    img{
+        
+        max-width: 100%;
+        height: auto;
+        
+    }
+}
+
+.eachSlide{
+    z-index: 100;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    .contenedorSlide{
+        grid-column-start: 1;
+        grid-row-start: 1;
+         height: auto; 
+     }
+
+    img{
+    //    grid-column-start: 1;
+    //    grid-row-start: 1;
+    //     height: auto; 
+    }
+}
