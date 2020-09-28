@@ -19,7 +19,7 @@ const Coleccion = ({ title, imageUrl }) =>(
             className='contenedorColeccion'
             >
             <div className= 'coleccion'>
-                <a className='coleccionBtn' href="#">
+                <a className='coleccionBtn' href={title}>
                 <img src={imageUrl} alt="Colección Lukayotl"/>
                 <h1 className='txtColeccion'>{title}</h1>
                 {/* <h3 className='txtYear'>2020</h3> */}

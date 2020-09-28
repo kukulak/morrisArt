@@ -1,6 +1,10 @@
 .slide{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
     img{
         
+        min-width: 150%;
         max-width: 100%;
         height: auto;
         
@@ -13,11 +17,23 @@
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+    overflow: hidden;
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
 
     .contenedorSlide{
         grid-column-start: 1;
         grid-row-start: 1;
          height: auto; 
+         justify-content: center;
+         justify-items: center;
+        justify-self: center;
+        align-self: center;
      }
 
     img{

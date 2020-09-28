@@ -1,0 +1,126 @@
+
+
+.productDisplay{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    // grid-template-rows: 2;
+    justify-items: center;
+    justify-content: center;
+
+    :hover{
+        cursor: pointer;
+    }
+
+}
+.imagesItems{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    justify-content: center;
+}
+.fotoProducto{
+    grid-column-start: 1;
+    grid-row-start: 1 ;
+}
+
+.fotoProductoTop{
+    // scale: 1;
+    display: none;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    z-index: 99;
+    transform: scale(1.03);
+}
+
+.productDisplay:hover .fotoProductoTop{
+    cursor: pointer;
+    display: inline;
+    -webkit-animation: fadeInFromNone 0.5s ease-out;
+    -moz-animation: fadeInFromNone 0.5s ease-out;
+    -o-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
+}
+
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        transform: scale(1.03);
+    }
+}
+
+.productName{
+    z-index: 2;
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 35px;
+}
+
+

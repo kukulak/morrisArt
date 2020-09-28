@@ -1,9 +1,8 @@
 import React from 'react';
 import './menu.styles.scss'
-import Menuitem from './menuItem.component'
+import Menusocialitem from './menuItem.component'
 
-
-class Menu extends React.Component{
+class Menusocial extends React.Component{
     constructor(){
         super();
         
@@ -15,30 +14,16 @@ class Menu extends React.Component{
            sections:[
             {
                 "id": 14,
-                "name": "home",
+                "name": "lukayotl",
                 "foto": "",
                 "informacion": "",
                 "link": ""
             },   
             {
                 "id": 11,
-                "name": "acerca de mi",
+                "name": "sili",
                 "foto": "",
                 "informacion": "sili es caracol en grecoromani azteka",
-                "link": ""
-            },
-            {
-                "id": 12,
-                "name": "colecciones",
-                "foto": "",
-                "informacion": "",
-                "link": ""
-            },
-            {
-                "id": 13,
-                "name": "contacto",
-                "foto": "",
-                "informacion": "",
                 "link": ""
             }
             ]
@@ -48,22 +33,22 @@ class Menu extends React.Component{
     render(){
         return(
 
-    
+           
         
-            <div className='contenedorMenu'>
+            <div className='contenedorMenuSocial'>
 
                 {
-                    this.state.sections.map(({name, id}) => (
-                        <Menuitem
+                    this.state.sections.map(({name, foto, id}) => (
+                        <Menusocialitem
                         key={id}
-                        link={ name.toUpperCase() }
-                       
+                        alt={name}
+                        imgUrl={foto}
                         />
                     ))
                 }
 
             </div>
-           
+        
         )
         }
 
@@ -72,4 +57,4 @@ class Menu extends React.Component{
 
 
 
-export default Menu;
+export default Menusocial;

@@ -4,7 +4,7 @@ p, a, h1, h2, h3, h4, h5, h6, div, section, menu{
   font-weight: 300;
 }
 
-
+/* *{margin: 0;} */
 .App {
   text-align: center;
   background-color: black;

@@ -6,7 +6,7 @@ import Palabrasinter from '../../components/palabrasinter/palabrasinter.componen
 import Uso from '../../components/uso/uso.component';
 import PalabrasMorris from '../../components/palabrasmorris/palabrasmorris.component';
 import Nuevas from '../../components/nuevas/nuevas.component';
-import Menu from '../../components/menu/menu.component';
+import FullMenu from '../../components/menu/fullmenu.component';
 import Footer from '../../components/footer/footer.component';
 import Contacto from '../../components/contacto/contacto.component'
 
@@ -14,7 +14,7 @@ import Contacto from '../../components/contacto/contacto.component'
 const HomePage = () =>(
     
     <div className='homepage'>
-        <Menu />
+        <FullMenu />
         <div className="indicator"></div>
 		<div className="noiseDiv"></div>
         <Herobanner />
